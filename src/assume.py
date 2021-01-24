@@ -12,7 +12,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 config = configparser.RawConfigParser()
 
 if os.name == 'nt':
-    home = os.getenv('HOME')
+    home = os.getenv('HOMEPATH')
 else:
     home = os.getenv('HOME')
 
